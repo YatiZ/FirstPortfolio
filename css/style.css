@@ -211,6 +211,7 @@ span{
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 2.5rem;
+    
 }
 .portfolio-container .portfolio-box{
     position: relative;
@@ -219,9 +220,13 @@ span{
     overflow: hidden;
     display: flex;
 }
+.portfolio-box{
+    height: 200px;
+}
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
+    object-fit: cover;
 }
 .portfolio-box:hover img{
     transform: scale(1.1);
@@ -246,7 +251,7 @@ span{
     transform: translateY(0%);
 }
 .portfolio-layer h4{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .portfolio-layer p{
     font-size: 1rem;
