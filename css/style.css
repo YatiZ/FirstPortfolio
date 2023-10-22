@@ -195,12 +195,17 @@ span{
     margin: 1rem 0 ;
 
 }
+.services-box{
+    height: 380px;
+}
 .services-container .services-box:hover{
     border-color:var(--main-color) ;
     transform: scale(1.02);
 }
 .portfolio{
     background: var(--second-bg-color);
+    color: black;
+    font-weight: bold;
 }
 
 .portfolio h2{
@@ -274,6 +279,13 @@ span{
 .contact h2{
    margin-bottom: 3rem;
 
+}
+
+.contact a{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-left: 20px;
+    text-align: center;
 }
 .contact form{
     max-width: 70rem;
@@ -380,3 +392,4 @@ span{
         margin: 3rem 0;
     }
 }
+
