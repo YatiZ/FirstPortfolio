@@ -66,6 +66,20 @@ section{
     color: var(--text-color);
     display: none;
 }
+@media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  
+    #menu-icon.bx-x {
+      display: block;
+    }
+  }
+  
+  .navbar.active {
+    display: block;
+  }
+
 .home {
     display: flex;
     justify-content: center;
@@ -418,5 +432,12 @@ span{
     .home-img img{
         display: none;
     }
+    .services h2{
+        font-size: 25px;
+    }
+    .portfolio h2{
+        font-size: 25px;
+    }
 }
+
 
