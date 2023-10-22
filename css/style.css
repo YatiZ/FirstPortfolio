@@ -391,5 +391,32 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
     }
+    .about{
+        height: fit-content;
+        display: grid;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-img img{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .portfolio-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 2.5rem;
+        
+    }
+    section{
+        min-height: 55vh;
+        padding: 10rem 9% 2rem;
+    }
+    .home-img img{
+        display: none;
+    }
 }
 
